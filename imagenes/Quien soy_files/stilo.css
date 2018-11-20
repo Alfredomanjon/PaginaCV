@@ -1,5 +1,5 @@
 *{
-/*border: solid red 1px;*/
+border: solid red 1px;*/
   }
 body{
   font-family:'PT sans';
@@ -147,11 +147,6 @@ a{color:#1E90FF ;text-decoration:none;}
   grid-template-columns: 1fr 1fr;
   background:	#DCDCDC;
 }
-.grid1{
-  display: grid;
-  grid-template-columns: 1fr;
-  background:	#FFFFFF;
-}
 
 
 .Noticias{
@@ -167,15 +162,6 @@ a{color:#1E90FF ;text-decoration:none;}
   -webkit-transform: scale(0.95);
   -ms-transform: scale(0.95);
   transform: scale(0.95);
-}
-.Aficiones{
-  font-size:130%;
-  text-align: center;
-  font-family:'PT sans';
-  margin: 6%;
-  margin-left:15%;
-  margin-right:15%;
-  background:#DCDCDC;
 }
 
 .Contacto{
@@ -237,7 +223,7 @@ margin:0 4px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.espaciogris1{
+.espaciogris{
   background:	#DCDCDC;
   height: 120px;
 }
