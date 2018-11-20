@@ -1,0 +1,197 @@
+*{
+/*border: solid red 1px;*/
+  }
+body{
+  font-family:'PT sans';
+}
+
+#header {
+	background:	#2a2a2a;
+	color: white;
+	height: 80px;
+  padding: 2px 0px 0px 0px;
+  font-family:'PT sans';
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  opacity: 0.9;
+}
+	#header a {
+		color: white;
+
+	}
+  #logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+
+
+}
+	#logo-header:hover {
+		color: #FFFFFF;
+	}
+
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #000000;
+	}
+  nav {
+  	float: right;
+
+  }
+  nav ul {
+  		margin: 0;
+  		padding: 0;
+  		list-style: none;
+  		padding-right: 20px;
+  	}
+
+  nav ul li {
+  			display: inline-block;
+  			line-height: 80px;
+  		}
+
+  nav ul li a {
+  				display: block;
+  				padding: 0 10px;
+  				text-decoration: none;
+  			}
+
+  nav ul li a:hover {
+  					background: #808080;
+            text-decoration-color: #FFFFFF;
+
+  				}
+#banner{
+  height: 90px;
+  background:#DCDCDC
+
+}
+.Añadido1{
+  float: right;
+  margin-right:6px;
+}
+.arriba{
+  float: left;
+  margin-left:40px;
+  font-size: 130%;
+}
+
+.nombre{
+font-family:'PT sans';
+font-size: 200%;
+}
+.descripcion{
+font-family:'PT sans';
+font-size: 80%;
+}
+.Inicio{
+float:center;
+font-family:'PT sans';
+font-style: normal;
+text-align: center;
+font-size: 200%;
+}
+.foto{
+  text-align: center;
+  width: 100%;
+}
+.LinkInicio{
+text-align: center;
+font-family:'PT sans';
+font-size: 130%;
+}
+a{color:#1E90FF ;text-decoration:none;}
+
+.Bienvenida{
+  text-align: center;
+  font-family:'PT sans';
+  font-size: 130%;
+}
+#espacio1{
+  padding: 3%
+}
+#espacio2{
+  padding: 6%;
+}
+#espacio3{
+  padding: 9%;
+}
+.links{
+  text-align: center;
+  font-family:'PT sans';
+  font-size: 130%;
+
+}
+
+.UltimasNovedades{
+  float:center;
+  font-family:'PT sans';
+  font-style: normal;
+  text-align: center;
+  font-size: 160%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background:	#DCDCDC;
+}
+
+
+.Noticias{
+  font-size:130%;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 6%;
+  margin-left:15%;
+  margin-right:15%;
+  background:#FFFFFF;
+}
+.Noticias:hover{
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+.Contacto{
+  text-align: center;
+  font-family:'PT sans';
+  font-size:160%;
+}
+.Redes{
+text-align: center;
+margin:0 4px;
+
+
+}
+.Redes img{
+  margin:0 40px;
+}
+.Redes1{
+  text-align: center;
+  font-size:130%;
+}
+.LinkedIn:hover{
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+.Facebook:hover{
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+.twitter:hover{
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
