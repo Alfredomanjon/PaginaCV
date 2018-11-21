@@ -149,9 +149,9 @@ a{color:#1E90FF ;text-decoration:none;}
 }
 .grid1{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   background:	#FFFFFF;
-}
+  }
 
 
 .Noticias{
@@ -214,28 +214,28 @@ margin:0 4px;
 
 .mac{
     text-align: center;
+    width:50%;
+    margin-left:25%;
+    transition-duration: 1.2s;
 }
-.mac2{
-    text-align: center;
+.macimagen {
+  width:100%;
+}
+.bordenegro {
+  border: 35px solid black;
+  border-radius: 20px 20px 0 0;
+  height: 400px;
+  overflow-y:scroll;
+}
+.mac:hover{
+  transform: scale(1.7);
+  margin-top:10%;
+
+
 }
 
-.centrado{
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.centrado1{
-  position: absolute;
-  top: 22%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.centrado3{
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.mac2{
+    text-align: center;
 }
 .espaciogris1{
   background:	#DCDCDC;
@@ -243,4 +243,19 @@ margin:0 4px;
 }
 .Misaficiones{
   text-align: center;
+}
+
+.cocina{
+  font-size:130%;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 6%;
+  background:	#DCDCDC;
+}
+.videojuegos{
+  font-size:130%;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 6%;
+  background:	#DCDCDC;
 }
