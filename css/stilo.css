@@ -4,7 +4,10 @@
 body{
   font-family:'PT sans';
 }
-
+.Texto{
+  color: #000000;
+  font-family:'PT sans';
+}
 
 #header {
 	background:	#2a2a2a;
@@ -74,8 +77,9 @@ body{
 
   				}
 #banner{
-  height: 90px;
+  height: 100px;
   background:#DCDCDC
+
 
 }
 .Añadido1{
@@ -102,6 +106,13 @@ font-family:'PT sans';
 font-style: normal;
 text-align: center;
 font-size: 200%;
+}
+.Inicio2{
+  float:center;
+  font-family:'PT sans';
+  font-style: normal;
+  text-align: center;
+  font-size: 350%;
 }
 .foto{
   text-align: center;
@@ -244,18 +255,77 @@ margin:0 4px;
 .Misaficiones{
   text-align: center;
 }
+.tecnologia{
+  font-size:130%;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 7%;
+  background:	#DCDCDC;
+}
+.tecnologia:hover{
+transform: scale(0.95);
 
+}
 .cocina{
   font-size:130%;
   text-align: center;
   font-family:'PT sans';
-  margin: 6%;
+  margin: 7%;
   background:	#DCDCDC;
+}
+.cocina:hover{
+transform: scale(0.95);
+
 }
 .videojuegos{
   font-size:130%;
   text-align: center;
   font-family:'PT sans';
-  margin: 6%;
+  margin: 7%;
+  background:	#DCDCDC;
+}
+.videojuegos:hover{
+transform: scale(0.95);
+
+}
+.Bici{
+  font-size:130%;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 7%;
+  background:	#DCDCDC;
+}
+.Bici:hover{
+transform: scale(0.95);
+
+}
+.tecnologia1{
+  font-size:130%;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 7%;
+  background:	#DCDCDC;
+}
+.cocina1{
+  font-size:130%;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 7%;
+  background:	#DCDCDC;
+}
+.videojuegos1{
+  font-size:130%;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 7%;
+  background-image: url(http://i0.wp.com/pentavox.net/wp-content/uploads/2016/03/videojuegos.jpg?fit=1524%2C858);
+  opacity: 0.9;
+
+}
+.Bici1{
+  font-size:130%;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 7%;
   background:	#DCDCDC;
 }
