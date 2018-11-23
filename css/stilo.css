@@ -348,3 +348,21 @@ transform: scale(0.95);
 .Texto2{
   margin: 3%;
 }
+.MonteTabor{
+  font-size:140%;
+  font-weight: 600;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 7%;
+  background-image: url("../imagenes/Montetabor.png") color:#DCDCDC;
+  background-size: cover;
+}
+.u-tad{
+  font-size:140%;
+  font-weight: 600;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 7%;
+  background-image: url("../imagenes/Montetabor.png") color:#DCDCDC;
+  background-size: cover;
+}
