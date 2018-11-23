@@ -1,9 +1,11 @@
 *{
 /*border: solid red 1px;*/
+
   }
 body{
   font-family:'PT sans';
 }
+
 .Texto{
   color: #000000;
   font-family:'PT sans';
@@ -91,6 +93,10 @@ body{
   margin-left:40px;
   font-size: 130%;
 }
+.atras{
+  margin-left:70px;
+  font-size: 180%;
+}
 
 .nombre{
 font-family:'PT sans';
@@ -116,7 +122,7 @@ font-size: 200%;
 }
 .foto{
   text-align: center;
-  width: 100%;
+
 }
 .LinkInicio{
 text-align: center;
@@ -300,32 +306,45 @@ transform: scale(0.95);
 
 }
 .tecnologia1{
-  font-size:130%;
+  font-size:140%;
   text-align: center;
   font-family:'PT sans';
   margin: 7%;
-  background:	#DCDCDC;
+  background-image: url("../imagenes/tecnologia2.jpg");
+  color: #FFFFFF;
+  font-weight: 600;
+  background-size: cover;
 }
 .cocina1{
-  font-size:130%;
+  font-size:140%;
   text-align: center;
   font-family:'PT sans';
   margin: 7%;
-  background:	#DCDCDC;
+  background-image: url("../imagenes/cocina4.jpg");
+  color: #FFFFFF;
+  font-weight: 600;
+  background-size: cover;
 }
 .videojuegos1{
-  font-size:130%;
+  font-size:140%;
+  font-weight: 600;
   text-align: center;
   font-family:'PT sans';
   margin: 7%;
-  background-image: url(http://i0.wp.com/pentavox.net/wp-content/uploads/2016/03/videojuegos.jpg?fit=1524%2C858);
-  opacity: 0.9;
-
+  background-image: url("../imagenes/videojuegos3.jpg");
+  background-size: cover;
 }
+
 .Bici1{
-  font-size:130%;
+  font-size:140%;
   text-align: center;
   font-family:'PT sans';
   margin: 7%;
-  background:	#DCDCDC;
+  background-image: url("../imagenes/bici6.jpg");
+  font-size:140%;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.Texto2{
+  margin: 3%;
 }
