@@ -429,3 +429,47 @@ section {
   max-width: 800px;
   padding: 1.5em;
 }
+.Experiencia{
+  background-color:#DCDCDC;
+  font-size:130%;
+  text-align: center;
+  font-family:'PT sans';
+  margin: 6%;
+}
+
+.container{
+	position: relative;
+	width: 1000px;
+
+	margin: 10px auto 0 auto;
+	overflow: hidden;
+}
+.container:hover .capaAuxTexto{
+opacity: 1;
+}
+.capaAuxImagen{
+	position:relative;
+	width: 1000px;
+}
+.capaAuxTexto{
+	position: absolute;
+	top: 0px;
+	color:white;
+	background-color: #FFFFFF;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	display:table;
+	transition: 2s all;
+	opacity: 0;
+}
+.enlace{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+  height: 700px;
+}
+
+.enlace a:link{
+	color:#000000;
+}
