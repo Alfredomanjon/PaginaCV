@@ -1,3 +1,7 @@
+@font-face {
+	font-family:'Pt sans';
+	src: url("../fuentes/pt-sans_[allfont.es].ttf");
+}
 *{
 /*border: solid red 1px;*/
 
@@ -372,7 +376,7 @@ section {
     width: 100% !important;
 }
 #bloque1 {
-    background-image: url("../imagenes/programacion1.jpg");
+    background-image: url("../imagenes/fondoQuienSO2.jpg");
 }
 #bloque2 {
     background-image: url("../imagenes/Montetabor4.jpg");
@@ -440,8 +444,13 @@ section {
 .container{
 	position: relative;
 	width: 1000px;
-
 	margin: 10px auto 0 auto;
+	overflow: hidden;
+}
+.container1{
+  position: relative;
+	width: 300px;
+	margin:30px ;
 	overflow: hidden;
 }
 .container:hover .capaAuxTexto{
