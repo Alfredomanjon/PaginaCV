@@ -140,13 +140,13 @@ a{color:#1E90FF ;text-decoration:none;}
   font-family:'PT sans';
   font-size: 130%;
 }
-#espacio1{
+.espacio1{
   padding: 3%
 }
-#espacio2{
+.espacio2{
   padding: 6%;
 }
-#espacio3{
+.espacio3{
   padding: 9%;
 }
 .links{
@@ -265,6 +265,10 @@ margin:0 4px;
 .Misaficiones{
   text-align: center;
 }
+.Noticia1{
+	color: #FFFFFF;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
 .tecnologia{
   font-size:130%;
   text-align: center;
@@ -328,6 +332,7 @@ transform: scale(0.95);
   color: #FFFFFF;
   font-weight: 600;
   background-size: cover;
+	color: #FFFFFF;
 }
 .videojuegos1{
   font-size:140%;
@@ -337,6 +342,7 @@ transform: scale(0.95);
   margin: 7%;
   background-image: url("../imagenes/videojuegos3.jpg");
   background-size: cover;
+	color: #FFFFFF;
 }
 
 .Bici1{
@@ -351,6 +357,10 @@ transform: scale(0.95);
 }
 .Texto2{
   margin: 3%;
+}
+.Texto3{
+	margin: 3%;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 #parallax{
   background: url("img/bg-patt.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -376,7 +386,8 @@ section {
     width: 100% !important;
 }
 #bloque1 {
-    background-image: url("../imagenes/fondoQuienSO2.jpg");
+    background-image: url("../imagenes/teclado3.jpg");
+    background-size: cover;
 }
 #bloque2 {
     background-image: url("../imagenes/Montetabor4.jpg");
@@ -386,29 +397,27 @@ section {
 }
 
 #tituloparallax {
-    background-color: #FFFFFF;
     bottom: 0;
     display: block;
-    font-size: 5em;
+    font-size: 6em;
     font-weight: bold;
     margin-top: 1.5em;
-    opacity: 0.76;
     text-align: center;
     text-transform: uppercase;
     width: 100%;
-    font-style:'PT sans';
     font-family: 'PT sans';
 }
-#titu2parallax{
+.titu2parallax{
+  background-color: rgba(255, 255, 255, 0.8);
     color: #000000;
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: bold;
     margin-top: 2em;
-    opacity: 0.85;
     text-align: center;
     text-transform: uppercase;
-    font-style:'PT sans';
     font-family: 'PT sans';
+    margin-right: 34%;
+    margin-left:34%;
 }
 #Perfil{
     display: block;
